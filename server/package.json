@@ -1,0 +1,17 @@
+{
+  "name": "iot-button",
+  "version": "1.0.0",
+  "description": "IoT Button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ajay",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0"
+  }
+}

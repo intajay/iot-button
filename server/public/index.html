@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IoT Button</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <style>
+        html,
+        body,
+        .container {
+            height: 100%;
+        }
+        
+        .container {
+            display: table;
+            vertical-align: middle;
+        }
+        
+        .status {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="status">
+            <div class="btn-group" role="group" aria-label="...">
+                <button type="button" id="off" class="btn btn-danger">off</button>
+                <button type="button" id="on" class="btn btn-success">on</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/iot.js"></script>
+</body>
+
+</html>
